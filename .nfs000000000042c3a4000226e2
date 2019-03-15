@@ -1,0 +1,535 @@
+[03/15 10:34:36      0s] 
+[03/15 10:34:36      0s] Cadence Innovus(TM) Implementation System.
+[03/15 10:34:36      0s] Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+[03/15 10:34:36      0s] 
+[03/15 10:34:36      0s] Version:	v17.12-s095_1, built Thu Nov 9 12:10:01 PST 2017
+[03/15 10:34:36      0s] Options:	
+[03/15 10:34:36      0s] Date:		Fri Mar 15 10:34:36 2019
+[03/15 10:34:36      0s] Host:		r6cad-tsmc16.stanford.edu (x86_64 w/Linux 2.6.32-642.6.1.el6.x86_64) (12cores*24cpus*Common KVM processor 16384KB)
+[03/15 10:34:36      0s] OS:		CentOS release 6.8 (Final)
+[03/15 10:34:36      0s] 
+[03/15 10:34:36      0s] License:
+[03/15 10:34:36      0s] 		invs	Innovus Implementation System	17.1	checkout succeeded
+[03/15 10:34:36      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[03/15 10:34:51     11s] @(#)CDS: Innovus v17.12-s095_1 (64bit) 11/09/2017 12:10 (Linux 2.6.18-194.el5)
+[03/15 10:34:51     11s] @(#)CDS: NanoRoute 17.12-s095_1 NR171102-1913/17_12-UB (database version 2.30, 405.7.1) {superthreading v1.44}
+[03/15 10:34:51     11s] @(#)CDS: AAE 17.12-s040 (64bit) 11/09/2017 (Linux 2.6.18-194.el5)
+[03/15 10:34:51     11s] @(#)CDS: CTE 17.12-s036_1 () Nov  2 2017 09:33:40 ( )
+[03/15 10:34:51     11s] @(#)CDS: SYNTECH 17.12-s012_1 () Oct 31 2017 04:30:11 ( )
+[03/15 10:34:51     11s] @(#)CDS: CPE v17.12-s076
+[03/15 10:34:51     11s] @(#)CDS: IQRC/TQRC 16.1.1-s220 (64bit) Fri Aug  4 09:53:48 PDT 2017 (Linux 2.6.18-194.el5)
+[03/15 10:34:51     11s] @(#)CDS: OA 22.50-p063 Fri Feb  3 19:45:13 2017
+[03/15 10:34:51     11s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[03/15 10:34:51     11s] @(#)CDS: RCDB 11.10
+[03/15 10:34:51     11s] --- Running on r6cad-tsmc16.stanford.edu (x86_64 w/Linux 2.6.32-642.6.1.el6.x86_64) (12cores*24cpus*Common KVM processor 16384KB) ---
+[03/15 10:34:51     11s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_13960_r6cad-tsmc16.stanford.edu_ankitan_u9FFLr.
+
+[03/15 10:34:51     11s] Change the soft stacksize limit to 0.2%RAM (193 mbytes). Set global soft_stack_size_limit to change the value.
+[03/15 10:34:51     11s] 
+[03/15 10:34:51     11s] **INFO:  MMMC transition support version v31-84 
+[03/15 10:34:51     11s] 
+[03/15 10:34:51     11s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[03/15 10:34:51     11s] <CMD> suppressMessage ENCEXT-2799
+[03/15 10:34:52     11s] <CMD> getDrawView
+[03/15 10:34:52     11s] <CMD> loadWorkspace -name Physical
+[03/15 10:34:52     11s] <CMD> win
+[03/15 10:36:00     16s] <CMD> restoreDesign ../garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat/ Tile_PECore
+[03/15 10:36:00     16s] #% Begin load design ... (date=03/15 10:36:00, mem=459.2M)
+[03/15 10:36:00     16s] Set Default Input Pin Transition as 0.1 ps.
+[03/15 10:36:00     16s] **WARN: (IMPSYC-6163):	Command 'setDoAssign' is obsolete and will be made private and will be unsupported in future release. To avoid this warning, please remove the obsolete command from your script.
+[03/15 10:36:00     16s] **WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+[03/15 10:36:00     16s] % Begin Load MMMC data ... (date=03/15 10:36:00, mem=460.8M)
+[03/15 10:36:01     16s] % End Load MMMC data ... (date=03/15 10:36:01, total cpu=0:00:00.0, real=0:00:01.0, peak res=460.9M, current mem=460.9M)
+[03/15 10:36:01     16s] 
+[03/15 10:36:01     16s] Loading LEF file /home/ankitan/garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat/libs/lef/N16_Encounter_9M_2Xa1Xd3Xe2Z_UTRDL_9T_PODE_1.2a.tlef ...
+[03/15 10:36:01     16s] 
+[03/15 10:36:01     16s] Loading LEF file /home/ankitan/garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat/libs/lef/tcbn16ffcllbwp16p90pm.lef ...
+[03/15 10:36:01     16s] This command "restoreDesign ../garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat/ ..." required an extra checkout of license invs_20nm.
+[03/15 10:36:01     16s] Additional license(s) checked out: 1 'Innovus_20nm_Opt' license(s)
+[03/15 10:36:01     16s] Set DBUPerIGU to M1 pitch 180.
+[03/15 10:36:01     16s] 
+[03/15 10:36:01     16s] Loading LEF file /home/ankitan/garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat/libs/lef/tcbn16ffcllbwp16p90.lef ...
+[03/15 10:36:01     17s] 
+[03/15 10:36:01     17s] viaInitial starts at Fri Mar 15 10:36:01 2019
+viaInitial ends at Fri Mar 15 10:36:01 2019
+Loading view definition file from ../garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat//viewDefinition.tcl
+[03/15 10:36:01     17s] Reading ss_0p72_m40c_lib_set timing library '/tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib' ...
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D0BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D0P75BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D12BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D16BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D1BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D2BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D3BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D4BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D6BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN2D8BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D0BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D0P75BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D1BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D2BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D3BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D4BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D6BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN3D8BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN4D0BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'Z' of cell 'AN4D0P75BWP16P90' is not defined in the library. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:01     17s] Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'TAPCELLBWP16P90_VPP_VSS'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'TAPCELLBWP16P90_VPP_VBB'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'TAPCELLBWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'FILL8BWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'FILL64BWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'FILL4BWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'FILL3BWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'FILL32BWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'FILL2BWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'FILL1BWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'FILL16BWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'DCAP8BWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'DCAP64BWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'DCAP4BWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'DCAP32BWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'DCAP16BWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'BOUNDARY_RIGHTBWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'BOUNDARY_PTAPBWP16P90_VPP_VSS'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'BOUNDARY_PTAPBWP16P90_VPP_VBB'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-302):	No function defined for cell 'BOUNDARY_PTAPBWP16P90'. The cell will only be used for analysis. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72vm40c.lib)
+[03/15 10:36:06     21s] Message <TECHLIB-302> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[03/15 10:36:06     21s] Read 1221 cells in library 'tcbn16ffcllbwp16p90ssgnp0p72vm40c' 
+[03/15 10:36:06     21s] Reading ss_0p72_m40c_lib_set timing library '/sim/nikhil3/mem_compile/130a/TSMCHOME/sram/Compiler/tsn16ffcllhdspsbsram_20131200_130a/ts1n16ffcllsblvtc512x16m8s_130a/NLDM/ts1n16ffcllsblvtc512x16m8s_130a_ssgnp0p72vm40c.lib' ...
+[03/15 10:36:06     21s] Read 1 cells in library 'ts1n16ffcllsblvtc512x16m8s_ssgnp0p72vm40c' 
+[03/15 10:36:06     21s] Reading ss_0p72_m40c_lib_set timing library '/tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib' ...
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'max_capacitance' has been defined for internal pin 'INTERNAL'. 'max_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 352)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'min_capacitance' has been defined for internal pin 'INTERNAL'. 'min_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 353)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'max_capacitance' has been defined for internal pin 'INTERNAL'. 'max_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 612)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'min_capacitance' has been defined for internal pin 'INTERNAL'. 'min_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 613)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'max_capacitance' has been defined for internal pin 'INTERNAL'. 'max_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 867)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'min_capacitance' has been defined for internal pin 'INTERNAL'. 'min_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 868)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'max_capacitance' has been defined for internal pin 'INTERNAL'. 'max_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 1122)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'min_capacitance' has been defined for internal pin 'INTERNAL'. 'min_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 1123)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'max_capacitance' has been defined for internal pin 'INTERNAL'. 'max_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 1382)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'min_capacitance' has been defined for internal pin 'INTERNAL'. 'min_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 1383)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'max_capacitance' has been defined for internal pin 'INTERNAL'. 'max_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 1642)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'min_capacitance' has been defined for internal pin 'INTERNAL'. 'min_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 1643)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'max_capacitance' has been defined for internal pin 'INTERNAL'. 'max_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 1897)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'min_capacitance' has been defined for internal pin 'INTERNAL'. 'min_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 1898)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'max_capacitance' has been defined for internal pin 'INTERNAL'. 'max_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 2152)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'min_capacitance' has been defined for internal pin 'INTERNAL'. 'min_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 2153)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'max_capacitance' has been defined for internal pin 'INTERNAL'. 'max_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 2412)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'min_capacitance' has been defined for internal pin 'INTERNAL'. 'min_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 2413)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'max_capacitance' has been defined for internal pin 'INTERNAL'. 'max_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 2672)
+[03/15 10:36:06     21s] **WARN: (TECHLIB-1277):	The attribute 'min_capacitance' has been defined for internal pin 'INTERNAL'. 'min_capacitance' cannot be defined at this level and is being ignored. (File /tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72vm40c.lib, Line 2673)
+[03/15 10:36:06     21s] Message <TECHLIB-1277> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[03/15 10:36:07     22s] Read 49 cells in library 'tcbn16ffcllbwp16p90pmssgnp0p72vm40c' 
+[03/15 10:36:07     23s] *** End library_loading (cpu=0.10min, real=0.10min, mem=95.6M, fe_cpu=0.38min, fe_real=1.52min, fe_mem=627.0M) ***
+[03/15 10:36:07     23s] % Begin Load netlist data ... (date=03/15 10:36:07, mem=734.5M)
+[03/15 10:36:07     23s] *** Begin netlist parsing (mem=627.0M) ***
+[03/15 10:36:07     23s] Created 1271 new cells from 3 timing libraries.
+[03/15 10:36:07     23s] Reading netlist ...
+[03/15 10:36:07     23s] Backslashed names will retain backslash and a trailing blank character.
+[03/15 10:36:07     23s] Reading verilogBinary netlist '/home/ankitan/garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat/Tile_PECore.v.bin'
+[03/15 10:36:07     23s] Reading binary database version 1
+[03/15 10:36:07     23s] 
+[03/15 10:36:07     23s] *** Memory Usage v#1 (Current mem = 632.965M, initial mem = 192.621M) ***
+[03/15 10:36:07     23s] *** End netlist parsing (cpu=0:00:00.1, real=0:00:00.0, mem=633.0M) ***
+[03/15 10:36:07     23s] % End Load netlist data ... (date=03/15 10:36:07, total cpu=0:00:00.1, real=0:00:00.0, peak res=734.5M, current mem=568.9M)
+[03/15 10:36:07     23s] Top level cell is Tile_PECore.
+[03/15 10:36:08     23s] Hooked 1271 DB cells to tlib cells.
+[03/15 10:36:08     23s] ** Removed 1 unused lib cells.
+[03/15 10:36:08     23s] Starting recursive module instantiation check.
+[03/15 10:36:08     23s] No recursion found.
+[03/15 10:36:08     23s] Building hierarchical netlist for Cell Tile_PECore ...
+[03/15 10:36:08     23s] *** Netlist is unique.
+[03/15 10:36:08     23s] ** info: there are 2320 modules.
+[03/15 10:36:08     23s] ** info: there are 4764 stdCell insts.
+[03/15 10:36:08     23s] ** info: there are 65 multi-height stdCell insts (1 stdCells)
+[03/15 10:36:08     23s] 
+[03/15 10:36:08     23s] *** Memory Usage v#1 (Current mem = 686.887M, initial mem = 192.621M) ***
+[03/15 10:36:08     23s] *info: set bottom ioPad orient R0
+[03/15 10:36:08     23s] **WARN: (IMPFP-3961):	The techSite 'dcore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[03/15 10:36:08     23s] Type 'man IMPFP-3961' for more detail.
+[03/15 10:36:08     23s] **WARN: (IMPFP-3961):	The techSite 'coreExt' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[03/15 10:36:08     23s] Type 'man IMPFP-3961' for more detail.
+[03/15 10:36:08     23s] 
+[03/15 10:36:08     23s] Honor LEF defined pitches for advanced node
+[03/15 10:36:08     23s] Set Default Net Delay as 1000 ps.
+[03/15 10:36:08     23s] Set Default Net Load as 0.5 pF. 
+[03/15 10:36:08     23s] Set Default Input Pin Transition as 0.1 ps.
+[03/15 10:36:08     23s] Set Shrink Factor to 0.98000
+[03/15 10:36:08     23s] Loading preference file ../garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat//gui.pref.tcl ...
+[03/15 10:36:08     23s] Applying the recommended capacitance filtering threshold values for 16nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[03/15 10:36:08     23s] 	These values will be used by all post-route extraction engines, including tQuantus, IQRC and Quantus QRC extraction.
+[03/15 10:36:08     23s] 	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+[03/15 10:36:08     23s] 	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+[03/15 10:36:08     23s] 	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+[03/15 10:36:08     23s] Updating process node dependent CCOpt properties for the 16nm process node.
+[03/15 10:36:08     23s] #WARNING (NRIF-82) When droutePostRouteSwapVia is set to 'false', the post route via swapping step will be performed on nets with attribute -multi_cut_via_effort, and to double cut vias.
+[03/15 10:36:08     23s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[03/15 10:36:08     23s] Stripes will break as close as possible to obstructions.
+[03/15 10:36:08     23s] 
+[03/15 10:36:08     23s] Loading LEF file ../garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat//Tile_PECore.lef.info.gz ...
+[03/15 10:36:08     23s] Extraction setup Started 
+[03/15 10:36:08     23s] Initializing multi-corner RC extraction with 2 active RC Corners ...
+[03/15 10:36:08     23s] Process node set using 'setDesignMode' is less than or equal to 32nm, for which captable file(s) would be ignored as preRoute extraction would instead use technology file. For postRoute extraction, default value for effort level would be 'medium' and effort level 'low' would not be allowed.
+[03/15 10:36:10     25s] Loading preRoute extracted patterns from file '../garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat//Tile_PECore.techData.gz' ...
+[03/15 10:36:10     25s] Completed (cpu: 0:00:01.4 real: 0:00:02.0)
+[03/15 10:36:10     25s] Set Shrink Factor to 0.98000 (from technology file)
+[03/15 10:36:10     25s] Summary of Active RC-Corners : 
+[03/15 10:36:10     25s]  
+[03/15 10:36:10     25s]  Analysis View: ss_0p72_m40c
+[03/15 10:36:10     25s]     RC-Corner Name        : max_rc_corner
+[03/15 10:36:10     25s]     RC-Corner Index       : 0
+[03/15 10:36:10     25s]     RC-Corner Temperature : -40 Celsius
+[03/15 10:36:10     25s]     RC-Corner Cap Table   : ''
+[03/15 10:36:10     25s]     RC-Corner PreRoute Res Factor         : 1
+[03/15 10:36:10     25s]     RC-Corner PreRoute Cap Factor         : 1
+[03/15 10:36:10     25s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[03/15 10:36:10     25s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[03/15 10:36:10     25s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[03/15 10:36:10     25s]     RC-Corner PreRoute Clock Res Factor   : 1
+[03/15 10:36:10     25s]     RC-Corner PreRoute Clock Cap Factor   : 1
+[03/15 10:36:10     25s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 
+[03/15 10:36:10     25s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 
+[03/15 10:36:10     25s]     RC-Corner Technology file: '/home/ankitan/garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat/libs/mmmc/max_rc_corner/qrcTechFile'
+[03/15 10:36:10     25s]  
+[03/15 10:36:10     25s]  Analysis View: ss_0p72_125c
+[03/15 10:36:10     25s]     RC-Corner Name        : max_rc_corner
+[03/15 10:36:10     25s]     RC-Corner Index       : 0
+[03/15 10:36:10     25s]     RC-Corner Temperature : -40 Celsius
+[03/15 10:36:10     25s]     RC-Corner Cap Table   : ''
+[03/15 10:36:10     25s]     RC-Corner PreRoute Res Factor         : 1
+[03/15 10:36:10     25s]     RC-Corner PreRoute Cap Factor         : 1
+[03/15 10:36:10     25s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[03/15 10:36:10     25s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[03/15 10:36:10     25s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[03/15 10:36:10     25s]     RC-Corner PreRoute Clock Res Factor   : 1
+[03/15 10:36:10     25s]     RC-Corner PreRoute Clock Cap Factor   : 1
+[03/15 10:36:10     25s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 
+[03/15 10:36:10     25s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 
+[03/15 10:36:10     25s]     RC-Corner Technology file: '/home/ankitan/garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat/libs/mmmc/max_rc_corner/qrcTechFile'
+[03/15 10:36:10     25s]  
+[03/15 10:36:10     25s]  Analysis View: ff_0p88_0c
+[03/15 10:36:10     25s]     RC-Corner Name        : min_rc_corner
+[03/15 10:36:10     25s]     RC-Corner Index       : 1
+[03/15 10:36:10     25s]     RC-Corner Temperature : 0 Celsius
+[03/15 10:36:10     25s]     RC-Corner Cap Table   : ''
+[03/15 10:36:10     25s]     RC-Corner PreRoute Res Factor         : 1
+[03/15 10:36:10     25s]     RC-Corner PreRoute Cap Factor         : 1
+[03/15 10:36:10     25s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[03/15 10:36:10     25s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[03/15 10:36:10     25s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[03/15 10:36:10     25s]     RC-Corner PreRoute Clock Res Factor   : 1
+[03/15 10:36:10     25s]     RC-Corner PreRoute Clock Cap Factor   : 1
+[03/15 10:36:10     25s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 
+[03/15 10:36:10     25s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 
+[03/15 10:36:10     25s]     RC-Corner Technology file: '/home/ankitan/garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat/libs/mmmc/min_rc_corner/qrcTechFile'
+[03/15 10:36:10     25s] Technology file '/home/ankitan/garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat/libs/mmmc/max_rc_corner/qrcTechFile' associated with first view 'ss_0p72_m40c' will be used as the primary corner for the multi-corner extraction.
+[03/15 10:36:10     25s] Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+[03/15 10:36:10     25s] *Info: initialize multi-corner CTS.
+[03/15 10:36:10     25s] Reading ss_0p72_125c_lib_set timing library '/tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ssgnp0p72v125c.lib' ...
+[03/15 10:36:15     30s] Read 1221 cells in library 'tcbn16ffcllbwp16p90ssgnp0p72v125c' 
+[03/15 10:36:15     30s] Reading ss_0p72_125c_lib_set timing library '/sim/nikhil3/mem_compile/130a/TSMCHOME/sram/Compiler/tsn16ffcllhdspsbsram_20131200_130a/ts1n16ffcllsblvtc512x16m8s_130a/NLDM/ts1n16ffcllsblvtc512x16m8s_130a_ssgnp0p72v125c.lib' ...
+[03/15 10:36:15     30s] Read 0 cells in library 'ts1n16ffcllsblvtc512x16m8s_ssgnp0p72v125c' 
+[03/15 10:36:15     30s] Ignored 1 cells in library 'ts1n16ffcllsblvtc512x16m8s_ssgnp0p72v125c' because they are not defined in the LEF file, and they are not used in the Verilog netlist.
+[03/15 10:36:15     30s] Reading ss_0p72_125c_lib_set timing library '/tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmssgnp0p72v125c.lib' ...
+[03/15 10:36:16     31s] Read 49 cells in library 'tcbn16ffcllbwp16p90pmssgnp0p72v125c' 
+[03/15 10:36:16     31s] Reading ff_0p88_0c_lib_set timing library '/tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90_100a/tcbn16ffcllbwp16p90ffgnp0p88v0c.lib' ...
+[03/15 10:36:21     37s] Read 1221 cells in library 'tcbn16ffcllbwp16p90ffgnp0p88v0c' 
+[03/15 10:36:21     37s] Reading ff_0p88_0c_lib_set timing library '/sim/nikhil3/mem_compile/130a/TSMCHOME/sram/Compiler/tsn16ffcllhdspsbsram_20131200_130a/ts1n16ffcllsblvtc512x16m8s_130a/NLDM/ts1n16ffcllsblvtc512x16m8s_130a_ffgnp0p88v0c.lib' ...
+[03/15 10:36:21     37s] Read 0 cells in library 'ts1n16ffcllsblvtc512x16m8s_ffgnp0p88v0c' 
+[03/15 10:36:21     37s] Ignored 1 cells in library 'ts1n16ffcllsblvtc512x16m8s_ffgnp0p88v0c' because they are not defined in the LEF file, and they are not used in the Verilog netlist.
+[03/15 10:36:21     37s] Reading ff_0p88_0c_lib_set timing library '/tsmc16/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn16ffcllbwp16p90pm_100a/tcbn16ffcllbwp16p90pmffgnp0p88v0c.lib' ...
+[03/15 10:36:23     38s] Read 49 cells in library 'tcbn16ffcllbwp16p90pmffgnp0p88v0c' 
+[03/15 10:36:23     38s] Reading timing constraints file '/home/ankitan/garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat/mmmc/modes/functional/functional.sdc' ...
+[03/15 10:36:23     38s] Current (total cpu=0:00:39.0, real=0:01:47, peak res=1153.2M, current mem=1153.2M)
+[03/15 10:36:23     39s] Number of path exceptions in the constraint file = 5
+[03/15 10:36:23     39s] INFO (CTE): Constraints read successfully.
+[03/15 10:36:23     39s] Ending "Constraint file reading stats" (total cpu=0:00:00.2, real=0:00:00.0, peak res=1153.2M, current mem=1018.4M)
+[03/15 10:36:23     39s] Current (total cpu=0:00:39.1, real=0:01:47, peak res=1153.2M, current mem=1018.4M)
+[03/15 10:36:23     39s] Creating Cell Server ...(0, 1, 1, 1)
+[03/15 10:36:23     39s] Summary for sequential cells identification: 
+[03/15 10:36:23     39s]   Identified SBFF number: 175
+[03/15 10:36:23     39s]   Identified MBFF number: 0
+[03/15 10:36:23     39s]   Identified SB Latch number: 0
+[03/15 10:36:23     39s]   Identified MB Latch number: 0
+[03/15 10:36:23     39s]   Not identified SBFF number: 0
+[03/15 10:36:23     39s]   Not identified MBFF number: 0
+[03/15 10:36:23     39s]   Not identified SB Latch number: 0
+[03/15 10:36:23     39s]   Not identified MB Latch number: 0
+[03/15 10:36:23     39s]   Number of sequential cells which are not FFs: 78
+[03/15 10:36:23     39s] Total number of combinational cells: 970
+[03/15 10:36:23     39s] Total number of sequential cells: 265
+[03/15 10:36:23     39s] Total number of tristate cells: 7
+[03/15 10:36:23     39s] Total number of level shifter cells: 0
+[03/15 10:36:23     39s] Total number of power gating cells: 0
+[03/15 10:36:23     39s] Total number of isolation cells: 16
+[03/15 10:36:23     39s] Total number of power switch cells: 12
+[03/15 10:36:23     39s] Total number of pulse generator cells: 0
+[03/15 10:36:23     39s] Total number of always on buffers: 0
+[03/15 10:36:23     39s] Total number of retention cells: 0
+[03/15 10:36:23     39s] List of usable buffers: BUFFD0BWP16P90 BUFFD1BWP16P90 BUFFD0P75BWP16P90 BUFFD10BWP16P90 BUFFD12BWP16P90 BUFFD14BWP16P90 BUFFD16BWP16P90 BUFFD18BWP16P90 BUFFD20BWP16P90 BUFFD24BWP16P90 BUFFD2BWP16P90 BUFFD3BWP16P90 BUFFD4BWP16P90 BUFFD5BWP16P90 BUFFD6BWP16P90 BUFFD8BWP16P90 BUFFSKND1BWP16P90 BUFFSKND0P75BWP16P90 BUFFSKND10BWP16P90 BUFFSKND12BWP16P90 BUFFSKND14BWP16P90 BUFFSKND16BWP16P90 BUFFSKND18BWP16P90 BUFFSKND20BWP16P90 BUFFSKND24BWP16P90 BUFFSKND2BWP16P90 BUFFSKND3BWP16P90 BUFFSKND4BWP16P90 BUFFSKND5BWP16P90 BUFFSKND6BWP16P90 BUFFSKND8BWP16P90 BUFFSKPD1BWP16P90 BUFFSKPD0P75BWP16P90 BUFFSKPD10BWP16P90 BUFFSKPD12BWP16P90 BUFFSKPD14BWP16P90 BUFFSKPD16BWP16P90 BUFFSKPD18BWP16P90 BUFFSKPD20BWP16P90 BUFFSKPD24BWP16P90 CKBD1BWP16P90 BUFFSKPD2BWP16P90 BUFFSKPD3BWP16P90 BUFFSKPD4BWP16P90 BUFFSKPD5BWP16P90 BUFFSKPD6BWP16P90 BUFFSKPD8BWP16P90 CKBD10BWP16P90 CKBD12BWP16P90 CKBD14BWP16P90 CKBD16BWP16P90 CKBD18BWP16P90 CKBD20BWP16P90 CKBD24BWP16P90 CKBD2BWP16P90 CKBD3BWP16P90 CKBD4BWP16P90 CKBD5BWP16P90 CKBD6BWP16P90 CKBD8BWP16P90 DCCKBD10BWP16P90 DCCKBD12BWP16P90 DCCKBD14BWP16P90 DCCKBD16BWP16P90 DCCKBD18BWP16P90 DCCKBD20BWP16P90 DCCKBD24BWP16P90 DCCKBD4BWP16P90 DCCKBD5BWP16P90 DCCKBD6BWP16P90 DCCKBD8BWP16P90 GBUFFMCOD1BWP16P90 GBUFFMCOD3BWP16P90 GBUFFMCOD2BWP16P90 GBUFFMCOD4BWP16P90 GBUFFMCOD8BWP16P90
+[03/15 10:36:23     39s] Total number of usable buffers: 76
+[03/15 10:36:23     39s] List of unusable buffers:
+[03/15 10:36:23     39s] Total number of unusable buffers: 0
+[03/15 10:36:23     39s] List of usable inverters: CKND1BWP16P90 CKND10BWP16P90 CKND12BWP16P90 CKND14BWP16P90 CKND16BWP16P90 CKND18BWP16P90 CKND20BWP16P90 CKND24BWP16P90 CKND2BWP16P90 CKND3BWP16P90 CKND4BWP16P90 CKND5BWP16P90 CKND6BWP16P90 CKND8BWP16P90 DCCKND10BWP16P90 DCCKND12BWP16P90 DCCKND14BWP16P90 DCCKND16BWP16P90 DCCKND18BWP16P90 DCCKND20BWP16P90 DCCKND24BWP16P90 DCCKND4BWP16P90 DCCKND5BWP16P90 DCCKND6BWP16P90 DCCKND8BWP16P90 GINVMCOD2BWP16P90 GINVMCOD1BWP16P90 GINVMCOD4BWP16P90 GINVMCOD3BWP16P90 GINVMCOD8BWP16P90 INVD0BWP16P90 INVD1BWP16P90 INVD0P75BWP16P90 INVD10BWP16P90 INVD12BWP16P90 INVD14BWP16P90 INVD16BWP16P90 INVD18BWP16P90 INVD20BWP16P90 INVD24BWP16P90 INVD2BWP16P90 INVD3BWP16P90 INVD4BWP16P90 INVD5BWP16P90 INVD6BWP16P90 INVD8BWP16P90 INVSKND1BWP16P90 INVSKND0P75BWP16P90 INVSKND10BWP16P90 INVSKND12BWP16P90 INVSKND14BWP16P90 INVSKND16BWP16P90 INVSKND18BWP16P90 INVSKND20BWP16P90 INVSKND24BWP16P90 INVSKND2BWP16P90 INVSKND3BWP16P90 INVSKND4BWP16P90 INVSKND5BWP16P90 INVSKND6BWP16P90 INVSKND8BWP16P90 INVSKPD1BWP16P90 INVSKPD0P75BWP16P90 INVSKPD10BWP16P90 INVSKPD12BWP16P90 INVSKPD14BWP16P90 INVSKPD16BWP16P90 INVSKPD18BWP16P90 INVSKPD20BWP16P90 INVSKPD24BWP16P90 INVSKPD2BWP16P90 INVSKPD3BWP16P90 INVSKPD4BWP16P90 INVSKPD5BWP16P90 INVSKPD6BWP16P90 INVSKPD8BWP16P90
+[03/15 10:36:23     39s] Total number of usable inverters: 76
+[03/15 10:36:23     39s] List of unusable inverters:
+[03/15 10:36:23     39s] Total number of unusable inverters: 0
+[03/15 10:36:23     39s] List of identified usable delay cells: DEL025D1BWP16P90 DEL050D1BWP16P90 DEL075D1BWP16P90 DEL100D1BWP16P90 DEL125D1BWP16P90 DEL150D1BWP16P90 DEL175D1BWP16P90 DEL1D1BWP16P90 DEL200D1BWP16P90 DEL225D1BWP16P90 DEL250D1BWP16P90 DEL500D1BWP16P90
+[03/15 10:36:23     39s] Total number of identified usable delay cells: 12
+[03/15 10:36:23     39s] List of identified unusable delay cells:
+[03/15 10:36:23     39s] Total number of identified unusable delay cells: 0
+[03/15 10:36:23     39s] Creating Cell Server, finished. 
+[03/15 10:36:23     39s] 
+[03/15 10:36:23     39s] Deleting Cell Server ...
+[03/15 10:36:23     39s] % Begin Load floorplan data ... (date=03/15 10:36:23, mem=1023.9M)
+[03/15 10:36:23     39s] Reading floorplan file - ../garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat//Tile_PECore.fp.gz (mem = 1077.3M).
+[03/15 10:36:23     39s] % Begin Load floorplan data ... (date=03/15 10:36:23, mem=1024.0M)
+[03/15 10:36:23     39s] *info: reset 23900 existing net BottomPreferredLayer and AvoidDetour
+[03/15 10:36:23     39s] Deleting old partition specification.
+[03/15 10:36:23     39s] Set FPlanBox to (0 0 137160 110592)
+[03/15 10:36:23     39s] 
+[03/15 10:36:23     39s] Honor LEF defined pitches for advanced node
+[03/15 10:36:23     39s] There are 2 members in group AON.
+[03/15 10:36:23     39s] There are 510 members in group TOP.
+[03/15 10:36:23     39s]  ... processed partition successfully.
+[03/15 10:36:23     39s] Reading binary special route file ../garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat//Tile_PECore.fp.spr.gz (Created by Innovus v17.12-s095_1 on Tue Mar 12 21:55:20 2019, version: 1)
+[03/15 10:36:23     39s] There are 9 nets with weight being set
+[03/15 10:36:23     39s] There are 9 nets with bottomPreferredRoutingLayer being set
+[03/15 10:36:23     39s] There are 9 nets with avoidDetour being set
+[03/15 10:36:23     39s] Extracting standard cell pins and blockage ...... 
+[03/15 10:36:24     39s] Pin and blockage extraction finished
+[03/15 10:36:24     39s] % End Load floorplan data ... (date=03/15 10:36:24, total cpu=0:00:00.1, real=0:00:01.0, peak res=1034.4M, current mem=1034.4M)
+[03/15 10:36:24     39s] % End Load floorplan data ... (date=03/15 10:36:24, total cpu=0:00:00.1, real=0:00:01.0, peak res=1034.4M, current mem=1034.4M)
+[03/15 10:36:24     39s] % Begin Load SymbolTable ... (date=03/15 10:36:24, mem=1034.4M)
+[03/15 10:36:24     39s] % End Load SymbolTable ... (date=03/15 10:36:24, total cpu=0:00:00.1, real=0:00:00.0, peak res=1039.6M, current mem=1039.6M)
+[03/15 10:36:24     39s] % Begin Load placement data ... (date=03/15 10:36:24, mem=1039.6M)
+[03/15 10:36:24     39s] Reading placement file - ../garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat//Tile_PECore.place.gz.
+[03/15 10:36:24     39s] *** Checked 960 GNC rules.
+[03/15 10:36:24     39s] *** applyConnectGlobalNets disabled.
+[03/15 10:36:24     39s] ** Reading stdCellPlacement_binary (Created by Innovus v17.12-s095_1 on Tue Mar 12 21:55:20 2019, version# 1) ...
+[03/15 10:36:24     39s] *** Checked 960 GNC rules.
+[03/15 10:36:24     39s] *** applyConnectGlobalNets disabled.
+[03/15 10:36:24     39s] *** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1080.3M) ***
+[03/15 10:36:24     39s] Total net length = 5.430e+04 (2.690e+04 2.740e+04) (ext = 2.488e+04)
+[03/15 10:36:24     39s] % End Load placement data ... (date=03/15 10:36:24, total cpu=0:00:00.1, real=0:00:00.0, peak res=1043.2M, current mem=1043.2M)
+[03/15 10:36:24     39s] *** Checked 960 GNC rules.
+[03/15 10:36:24     39s] *** Applying global-net connections...
+[03/15 10:36:24     39s] *** Applied 960 GNC rules (cpu = 0:00:00.0)
+[03/15 10:36:24     39s] % Begin Load routing data ... (date=03/15 10:36:24, mem=1043.6M)
+[03/15 10:36:24     39s] Reading routing file - ../garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat//Tile_PECore.route.gz.
+[03/15 10:36:24     39s] Reading Innovus routing data (Created by Innovus v17.12-s095_1 on Tue Mar 12 21:55:19 2019 Format: 16.2) ...
+[03/15 10:36:24     39s] Suppress "**WARN ..." messages.
+[03/15 10:36:24     39s] routingBox: (-160 -180) (137320 110772)
+[03/15 10:36:24     39s] coreBox:    (0 0) (137160 110592)
+[03/15 10:36:24     39s] Un-suppress "**WARN ..." messages.
+[03/15 10:36:24     39s] *** Total 5355 nets are successfully restored.
+[03/15 10:36:24     39s] *** Completed restoreRoute (cpu=0:00:00.1 real=0:00:00.0 mem=1080.3M) ***
+[03/15 10:36:24     39s] % End Load routing data ... (date=03/15 10:36:24, total cpu=0:00:00.1, real=0:00:00.0, peak res=1063.7M, current mem=1063.7M)
+[03/15 10:36:24     39s] Loading Drc markers ...
+[03/15 10:36:24     39s] ... 5 markers are loaded ...
+[03/15 10:36:24     39s] ... 0 geometry drc markers are loaded ...
+[03/15 10:36:24     39s] ... 0 antenna drc markers are loaded ...
+[03/15 10:36:24     39s] % Begin Load DEF data ... (date=03/15 10:36:24, mem=1063.8M)
+[03/15 10:36:24     39s] Reading DEF file '../garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat//Tile_PECore.def.gz', current time is Fri Mar 15 10:36:24 2019 ...
+[03/15 10:36:24     39s] --- DIVIDERCHAR '/'
+[03/15 10:36:24     39s] --- UnitsPerDBU = 1.0000
+[03/15 10:36:24     39s] --- DIEAREA (0 0) (137160 110592)
+[03/15 10:36:24     39s] **WARN: (IMPFP-3414):	Row CORE_ROW_0 exists, create new row with name CORE_ROW_0_0.
+[03/15 10:36:24     39s] **WARN: (IMPFP-3414):	Row CORE_ROW_1 exists, create new row with name CORE_ROW_1_0.
+[03/15 10:36:24     39s] **WARN: (IMPFP-3414):	Row CORE_ROW_2 exists, create new row with name CORE_ROW_2_0.
+[03/15 10:36:24     39s] **WARN: (IMPFP-3414):	Row CORE_ROW_3 exists, create new row with name CORE_ROW_3_0.
+[03/15 10:36:24     39s] **WARN: (IMPFP-3414):	Row CORE_ROW_4 exists, create new row with name CORE_ROW_4_0.
+[03/15 10:36:24     39s] **WARN: (IMPFP-3414):	Row CORE_ROW_5 exists, create new row with name CORE_ROW_5_0.
+[03/15 10:36:24     39s] **WARN: (IMPFP-3414):	Row CORE_ROW_6 exists, create new row with name CORE_ROW_6_0.
+[03/15 10:36:24     39s] **WARN: (IMPFP-3414):	Row CORE_ROW_7 exists, create new row with name CORE_ROW_7_0.
+[03/15 10:36:24     39s] **WARN: (IMPFP-3414):	Row CORE_ROW_8 exists, create new row with name CORE_ROW_8_0.
+[03/15 10:36:24     39s] defIn read 10000 lines...
+[03/15 10:36:24     39s] defIn read 20000 lines...
+[03/15 10:36:24     39s] defIn read 30000 lines...
+[03/15 10:36:24     39s] Extracting macro/IO cell pins and blockage ...... 
+[03/15 10:36:24     39s] Pin and blockage extraction finished
+[03/15 10:36:24     39s] defIn read 40000 lines...
+[03/15 10:36:24     39s] defIn read 50000 lines...
+[03/15 10:36:24     39s] defIn read 60000 lines...
+[03/15 10:36:24     40s] defIn read 70000 lines...
+[03/15 10:36:24     40s] defIn read 80000 lines...
+[03/15 10:36:24     40s] defIn read 90000 lines...
+[03/15 10:36:24     40s] defIn read 100000 lines...
+[03/15 10:36:24     40s] defIn read 110000 lines...
+[03/15 10:36:24     40s] defIn read 120000 lines...
+[03/15 10:36:25     40s] defIn read 130000 lines...
+[03/15 10:36:25     40s] DEF file '../garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat//Tile_PECore.def.gz' is parsed, current time is Fri Mar 15 10:36:25 2019.
+[03/15 10:36:25     40s] Updating the floorplan ...
+[03/15 10:36:25     40s] % End Load DEF data ... (date=03/15 10:36:25, total cpu=0:00:00.7, real=0:00:01.0, peak res=1064.6M, current mem=1064.6M)
+[03/15 10:36:25     40s] Reading property file ../garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat//Tile_PECore.prop
+[03/15 10:36:25     40s] *** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1080.3M) ***
+[03/15 10:36:25     40s] Cell 'ISOLOD4BWP16P90' has been added to powerDomain TOP connection specification.
+[03/15 10:36:25     40s] Cell 'ISOLOD1BWP16P90' has been added to powerDomain TOP connection specification.
+[03/15 10:36:25     40s] Cell 'HDR30XSICWDPDTD2BWP16P90' has been added to powerDomain TOP connection specification.
+[03/15 10:36:25     40s] Restoring power intent database ...
+[03/15 10:36:25     40s] Creating Cell Server ...(0, 1, 1, 1)
+[03/15 10:36:25     40s] Summary for sequential cells identification: 
+[03/15 10:36:25     40s]   Identified SBFF number: 174
+[03/15 10:36:25     40s]   Identified MBFF number: 0
+[03/15 10:36:25     40s]   Identified SB Latch number: 0
+[03/15 10:36:25     40s]   Identified MB Latch number: 0
+[03/15 10:36:25     40s]   Not identified SBFF number: 0
+[03/15 10:36:25     40s]   Not identified MBFF number: 0
+[03/15 10:36:25     40s]   Not identified SB Latch number: 0
+[03/15 10:36:25     40s]   Not identified MB Latch number: 0
+[03/15 10:36:25     40s]   Number of sequential cells which are not FFs: 78
+[03/15 10:36:25     40s] Total number of combinational cells: 962
+[03/15 10:36:25     40s] Total number of sequential cells: 252
+[03/15 10:36:25     40s] Total number of tristate cells: 7
+[03/15 10:36:25     40s] Total number of level shifter cells: 0
+[03/15 10:36:25     40s] Total number of power gating cells: 0
+[03/15 10:36:25     40s] Total number of isolation cells: 16
+[03/15 10:36:25     40s] Total number of power switch cells: 12
+[03/15 10:36:25     40s] Total number of pulse generator cells: 0
+[03/15 10:36:25     40s] Total number of always on buffers: 9
+[03/15 10:36:25     40s] Total number of retention cells: 12
+[03/15 10:36:25     40s] List of usable buffers: BUFFD0BWP16P90 BUFFD1BWP16P90 BUFFD0P75BWP16P90 BUFFD10BWP16P90 BUFFD12BWP16P90 BUFFD14BWP16P90 BUFFD18BWP16P90 BUFFD2BWP16P90 BUFFD3BWP16P90 BUFFD4BWP16P90 BUFFD5BWP16P90 BUFFD6BWP16P90 BUFFD8BWP16P90 BUFFSKND1BWP16P90 BUFFSKND0P75BWP16P90 BUFFSKND10BWP16P90 BUFFSKND12BWP16P90 BUFFSKND14BWP16P90 BUFFSKND18BWP16P90 BUFFSKND2BWP16P90 BUFFSKND3BWP16P90 BUFFSKND4BWP16P90 BUFFSKND5BWP16P90 BUFFSKND6BWP16P90 BUFFSKND8BWP16P90 BUFFSKPD1BWP16P90 BUFFSKPD0P75BWP16P90 BUFFSKPD10BWP16P90 BUFFSKPD12BWP16P90 BUFFSKPD14BWP16P90 BUFFSKPD18BWP16P90 CKBD1BWP16P90 BUFFSKPD2BWP16P90 BUFFSKPD3BWP16P90 BUFFSKPD4BWP16P90 BUFFSKPD5BWP16P90 BUFFSKPD6BWP16P90 BUFFSKPD8BWP16P90 CKBD10BWP16P90 CKBD12BWP16P90 CKBD14BWP16P90 CKBD18BWP16P90 CKBD2BWP16P90 CKBD3BWP16P90 CKBD4BWP16P90 CKBD5BWP16P90 CKBD6BWP16P90 CKBD8BWP16P90 DCCKBD10BWP16P90 DCCKBD12BWP16P90 DCCKBD14BWP16P90 DCCKBD18BWP16P90 DCCKBD4BWP16P90 DCCKBD5BWP16P90 DCCKBD6BWP16P90 DCCKBD8BWP16P90
+[03/15 10:36:25     40s] Total number of usable buffers: 56
+[03/15 10:36:25     40s] List of unusable buffers: BUFFD16BWP16P90 BUFFD20BWP16P90 BUFFD24BWP16P90 BUFFSKND16BWP16P90 BUFFSKND20BWP16P90 BUFFSKND24BWP16P90 BUFFSKPD16BWP16P90 BUFFSKPD20BWP16P90 BUFFSKPD24BWP16P90 CKBD16BWP16P90 CKBD20BWP16P90 CKBD24BWP16P90 DCCKBD16BWP16P90 DCCKBD20BWP16P90 DCCKBD24BWP16P90 GBUFFMCOD1BWP16P90 GBUFFMCOD3BWP16P90 GBUFFMCOD2BWP16P90 GBUFFMCOD4BWP16P90 GBUFFMCOD8BWP16P90
+[03/15 10:36:25     40s] Total number of unusable buffers: 20
+[03/15 10:36:25     40s] List of usable inverters: CKND1BWP16P90 CKND10BWP16P90 CKND12BWP16P90 CKND14BWP16P90 CKND18BWP16P90 CKND2BWP16P90 CKND3BWP16P90 CKND4BWP16P90 CKND5BWP16P90 CKND6BWP16P90 CKND8BWP16P90 DCCKND10BWP16P90 DCCKND12BWP16P90 DCCKND14BWP16P90 DCCKND18BWP16P90 DCCKND4BWP16P90 DCCKND5BWP16P90 DCCKND6BWP16P90 DCCKND8BWP16P90 INVD0BWP16P90 INVD1BWP16P90 INVD0P75BWP16P90 INVD10BWP16P90 INVD12BWP16P90 INVD14BWP16P90 INVD18BWP16P90 INVD2BWP16P90 INVD3BWP16P90 INVD4BWP16P90 INVD5BWP16P90 INVD6BWP16P90 INVD8BWP16P90 INVSKND1BWP16P90 INVSKND0P75BWP16P90 INVSKND10BWP16P90 INVSKND12BWP16P90 INVSKND14BWP16P90 INVSKND18BWP16P90 INVSKND2BWP16P90 INVSKND3BWP16P90 INVSKND4BWP16P90 INVSKND5BWP16P90 INVSKND6BWP16P90 INVSKND8BWP16P90 INVSKPD1BWP16P90 INVSKPD0P75BWP16P90 INVSKPD10BWP16P90 INVSKPD12BWP16P90 INVSKPD14BWP16P90 INVSKPD18BWP16P90 INVSKPD2BWP16P90 INVSKPD3BWP16P90 INVSKPD4BWP16P90 INVSKPD5BWP16P90 INVSKPD6BWP16P90 INVSKPD8BWP16P90
+[03/15 10:36:25     40s] Total number of usable inverters: 56
+[03/15 10:36:25     40s] List of unusable inverters: CKND16BWP16P90 CKND20BWP16P90 CKND24BWP16P90 DCCKND16BWP16P90 DCCKND20BWP16P90 DCCKND24BWP16P90 GINVMCOD2BWP16P90 GINVMCOD1BWP16P90 GINVMCOD4BWP16P90 GINVMCOD3BWP16P90 GINVMCOD8BWP16P90 INVD16BWP16P90 INVD20BWP16P90 INVD24BWP16P90 INVSKND16BWP16P90 INVSKND20BWP16P90 INVSKND24BWP16P90 INVSKPD16BWP16P90 INVSKPD20BWP16P90 INVSKPD24BWP16P90
+[03/15 10:36:25     40s] Total number of unusable inverters: 20
+[03/15 10:36:25     40s] List of identified usable delay cells: DEL025D1BWP16P90 DEL050D1BWP16P90 DEL075D1BWP16P90 DEL100D1BWP16P90 DEL125D1BWP16P90 DEL150D1BWP16P90 DEL175D1BWP16P90 DEL1D1BWP16P90 DEL200D1BWP16P90 DEL225D1BWP16P90 DEL250D1BWP16P90 DEL500D1BWP16P90
+[03/15 10:36:25     40s] Total number of identified usable delay cells: 12
+[03/15 10:36:25     40s] List of identified unusable delay cells:
+[03/15 10:36:25     40s] Total number of identified unusable delay cells: 0
+[03/15 10:36:25     40s] Creating Cell Server, finished. 
+[03/15 10:36:25     40s] 
+[03/15 10:36:25     40s] Deleting Cell Server ...
+[03/15 10:36:25     40s] -noImplicitRules false                     # bool, default=false, private
+[03/15 10:36:25     40s] Set Default Input Pin Transition as 0.1 ps.
+[03/15 10:36:25     40s] **WARN: (IMPSYC-6163):	Command 'setDoAssign' is obsolete and will be made private and will be unsupported in future release. To avoid this warning, please remove the obsolete command from your script.
+[03/15 10:36:25     40s] **WARN: (GLOBAL-100):	Global 'timing_enable_default_delay_arc' has become obsolete. It will be removed in the next release.
+[03/15 10:36:25     40s] **WARN: (IMPEXT-7040):	A horizontal wire, passing through or close to location (11520,-90), lies outside of design boundary. Correct the wire routing and rerun extraction.
+[03/15 10:36:25     40s] **WARN: (IMPEXT-7040):	A horizontal wire, passing through or close to location (23040,-90), lies outside of design boundary. Correct the wire routing and rerun extraction.
+[03/15 10:36:25     40s] **WARN: (IMPEXT-7040):	A horizontal wire, passing through or close to location (34560,-90), lies outside of design boundary. Correct the wire routing and rerun extraction.
+[03/15 10:36:25     40s] **WARN: (IMPEXT-7040):	A horizontal wire, passing through or close to location (0,-90), lies outside of design boundary. Correct the wire routing and rerun extraction.
+[03/15 10:36:25     40s] **WARN: (IMPEXT-7040):	A horizontal wire, passing through or close to location (46080,-90), lies outside of design boundary. Correct the wire routing and rerun extraction.
+[03/15 10:36:25     40s] **WARN: (IMPEXT-7040):	A horizontal wire, passing through or close to location (92160,-90), lies outside of design boundary. Correct the wire routing and rerun extraction.
+[03/15 10:36:25     40s] **WARN: (IMPEXT-7040):	A horizontal wire, passing through or close to location (103680,-90), lies outside of design boundary. Correct the wire routing and rerun extraction.
+[03/15 10:36:25     40s] **WARN: (IMPEXT-7040):	A horizontal wire, passing through or close to location (115200,-90), lies outside of design boundary. Correct the wire routing and rerun extraction.
+[03/15 10:36:25     40s] **WARN: (IMPEXT-7040):	A horizontal wire, passing through or close to location (80640,-90), lies outside of design boundary. Correct the wire routing and rerun extraction.
+[03/15 10:36:25     40s] **WARN: (IMPEXT-7040):	A horizontal wire, passing through or close to location (126720,-90), lies outside of design boundary. Correct the wire routing and rerun extraction.
+[03/15 10:36:25     40s] **WARN: (IMPEXT-7040):	A horizontal wire, passing through or close to location (57600,-90), lies outside of design boundary. Correct the wire routing and rerun extraction.
+[03/15 10:36:25     40s] **WARN: (IMPEXT-7040):	A horizontal wire, passing through or close to location (69120,-90), lies outside of design boundary. Correct the wire routing and rerun extraction.
+[03/15 10:36:25     40s] **WARN: (IMPEXT-7040):	A horizontal wire, passing through or close to location (46080,-90), lies outside of design boundary. Correct the wire routing and rerun extraction.
+[03/15 10:36:25     40s] **WARN: (IMPEXT-7040):	A horizontal wire, passing through or close to location (80640,-90), lies outside of design boundary. Correct the wire routing and rerun extraction.
+[03/15 10:36:25     40s] Initializing multi-corner resistance tables ...
+[03/15 10:36:26     42s] Initializing preRoute extraction patterns for new vias... Completed (cpu: 0:00:06.1 real: 0:00:07.0)
+[03/15 10:36:32     47s] % Begin Load power constraints ... (date=03/15 10:36:32, mem=1430.7M)
+[03/15 10:36:32     47s] % End Load power constraints ... (date=03/15 10:36:32, total cpu=0:00:00.0, real=0:00:00.0, peak res=1430.7M, current mem=1429.4M)
+[03/15 10:36:32     47s] Loading timing derate file ../garnet/tapeout_16/synth/Tile_PECore7/final.enc.dat//mmmc/timingderate.sdc ...
+[03/15 10:36:32     47s] Current (total cpu=0:00:47.2, real=0:01:56, peak res=1430.7M, current mem=1233.6M)
+[03/15 10:36:32     47s] INFO (CTE): Constraints read successfully.
+[03/15 10:36:32     47s] Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1238.2M, current mem=1238.2M)
+[03/15 10:36:32     47s] Current (total cpu=0:00:47.2, real=0:01:56, peak res=1430.7M, current mem=1238.2M)
+[03/15 10:36:32     47s] Start generating vias ...
+[03/15 10:36:32     47s] #WARNING (NRDB-2203) Layer M1 MASK is set to 2 but does not have SAMEMASK rules, will reset to single mask.
+[03/15 10:36:32     47s] #WARNING (NRDB-2077) The below via enclosure for LAYER M9 is not specified for width 0.3600.
+[03/15 10:36:32     47s] #WARNING (NRDB-2078) The above via enclosure for LAYER AP is not specified for width 1.8000.
+[03/15 10:36:32     47s] #WARNING (NRDB-2077) The below via enclosure for LAYER M9 is not specified for width 0.3600.
+[03/15 10:36:32     47s] #WARNING (NRDB-2078) The above via enclosure for LAYER AP is not specified for width 1.8000.
+[03/15 10:36:32     47s] #WARNING (NRDB-2077) The below via enclosure for LAYER M9 is not specified for width 0.3600.
+[03/15 10:36:32     47s] #WARNING (NRDB-2078) The above via enclosure for LAYER AP is not specified for width 1.8000.
+[03/15 10:36:32     47s] Via generation completed successfully.
+[03/15 10:36:33     48s] Initializing preRoute extraction patterns for new vias... Completed (cpu: 0:00:05.8 real: 0:00:06.0)
+[03/15 10:36:38     53s] % Begin load AAE data ... (date=03/15 10:36:38, mem=1570.7M)
+[03/15 10:36:38     53s] AAE DB initialization (MEM=1565.71 CPU=0:00:00.1 REAL=0:00:00.0) 
+[03/15 10:36:38     53s] % End load AAE data ... (date=03/15 10:36:38, total cpu=0:00:00.1, real=0:00:00.0, peak res=1570.7M, current mem=1570.1M)
+[03/15 10:36:38     53s] Restoring CCOpt config...
+[03/15 10:36:38     53s] Creating Cell Server ...(0, 0, 0, 0)
+[03/15 10:36:38     53s] Summary for sequential cells identification: 
+[03/15 10:36:38     53s]   Identified SBFF number: 174
+[03/15 10:36:38     53s]   Identified MBFF number: 0
+[03/15 10:36:38     53s]   Identified SB Latch number: 0
+[03/15 10:36:38     53s]   Identified MB Latch number: 0
+[03/15 10:36:38     53s]   Not identified SBFF number: 0
+[03/15 10:36:38     53s]   Not identified MBFF number: 0
+[03/15 10:36:38     53s]   Not identified SB Latch number: 0
+[03/15 10:36:38     53s]   Not identified MB Latch number: 0
+[03/15 10:36:38     53s]   Number of sequential cells which are not FFs: 78
+[03/15 10:36:38     53s] Creating Cell Server, finished. 
+[03/15 10:36:38     53s] 
+[03/15 10:36:38     53s]  Visiting view : ss_0p72_m40c
+[03/15 10:36:38     53s]    : PowerDomain = AON : Weighted F : unweighted  = 8.70 (1.000)
+[03/15 10:36:38     53s]    : PowerDomain = TOP : Weighted F : unweighted  = 8.70 (1.000)
+[03/15 10:36:38     53s]  Visiting view : ss_0p72_125c
+[03/15 10:36:38     53s]    : PowerDomain = AON : Weighted F : unweighted  = 7.80 (1.000)
+[03/15 10:36:38     53s]    : PowerDomain = TOP : Weighted F : unweighted  = 7.80 (1.000)
+[03/15 10:36:38     53s]  Visiting view : ss_0p72_m40c
+[03/15 10:36:38     53s]    : PowerDomain = AON : Weighted F : unweighted  = 8.70 (1.000)
+[03/15 10:36:38     53s]    : PowerDomain = TOP : Weighted F : unweighted  = 8.70 (1.000)
+[03/15 10:36:38     53s]  Visiting view : ss_0p72_125c
+[03/15 10:36:38     53s]    : PowerDomain = AON : Weighted F : unweighted  = 7.80 (1.000)
+[03/15 10:36:38     53s]    : PowerDomain = TOP : Weighted F : unweighted  = 7.80 (1.000)
+[03/15 10:36:38     53s]  Visiting view : ff_0p88_0c
+[03/15 10:36:38     53s]    : PowerDomain = AON : Weighted F : unweighted  = 4.30 (1.000)
+[03/15 10:36:38     53s]    : PowerDomain = TOP : Weighted F : unweighted  = 4.30 (1.000)
+[03/15 10:36:38     53s]  Setting StdDelay to 8.70
+[03/15 10:36:38     53s]   Extracting original clock gating for clk...
+[03/15 10:36:38     53s]     clock_tree clk contains 200 sinks and 0 clock gates.
+[03/15 10:36:38     53s]     Extraction for clk complete.
+[03/15 10:36:38     53s]   Extracting original clock gating for clk done.
+[03/15 10:36:38     53s]   Added 1 ignore pin (of 1 specified) to skew group 2. Skew group now contains 1 ignore pin.
+[03/15 10:36:38     53s] Restoring CCOpt config done.
+[03/15 10:36:38     53s] Deleting Cell Server ...
+[03/15 10:36:38     53s] Creating Cell Server ...(0, 1, 1, 1)
+[03/15 10:36:38     53s] Summary for sequential cells identification: 
+[03/15 10:36:38     53s]   Identified SBFF number: 174
+[03/15 10:36:38     53s]   Identified MBFF number: 0
+[03/15 10:36:38     53s]   Identified SB Latch number: 0
+[03/15 10:36:38     53s]   Identified MB Latch number: 0
+[03/15 10:36:38     53s]   Not identified SBFF number: 0
+[03/15 10:36:38     53s]   Not identified MBFF number: 0
+[03/15 10:36:38     53s]   Not identified SB Latch number: 0
+[03/15 10:36:38     53s]   Not identified MB Latch number: 0
+[03/15 10:36:38     53s]   Number of sequential cells which are not FFs: 78
+[03/15 10:36:38     53s] Total number of combinational cells: 962
+[03/15 10:36:38     53s] Total number of sequential cells: 252
+[03/15 10:36:38     53s] Total number of tristate cells: 7
+[03/15 10:36:38     53s] Total number of level shifter cells: 0
+[03/15 10:36:38     53s] Total number of power gating cells: 0
+[03/15 10:36:38     53s] Total number of isolation cells: 16
+[03/15 10:36:38     53s] Total number of power switch cells: 12
+[03/15 10:36:38     53s] Total number of pulse generator cells: 0
+[03/15 10:36:38     53s] Total number of always on buffers: 9
+[03/15 10:36:38     53s] Total number of retention cells: 12
+[03/15 10:36:38     53s] List of usable buffers: BUFFD0BWP16P90 BUFFD1BWP16P90 BUFFD0P75BWP16P90 BUFFD10BWP16P90 BUFFD12BWP16P90 BUFFD14BWP16P90 BUFFD18BWP16P90 BUFFD2BWP16P90 BUFFD3BWP16P90 BUFFD4BWP16P90 BUFFD5BWP16P90 BUFFD6BWP16P90 BUFFD8BWP16P90 BUFFSKND1BWP16P90 BUFFSKND0P75BWP16P90 BUFFSKND10BWP16P90 BUFFSKND12BWP16P90 BUFFSKND14BWP16P90 BUFFSKND18BWP16P90 BUFFSKND2BWP16P90 BUFFSKND3BWP16P90 BUFFSKND4BWP16P90 BUFFSKND5BWP16P90 BUFFSKND6BWP16P90 BUFFSKND8BWP16P90 BUFFSKPD1BWP16P90 BUFFSKPD0P75BWP16P90 BUFFSKPD10BWP16P90 BUFFSKPD12BWP16P90 BUFFSKPD14BWP16P90 BUFFSKPD18BWP16P90 CKBD1BWP16P90 BUFFSKPD2BWP16P90 BUFFSKPD3BWP16P90 BUFFSKPD4BWP16P90 BUFFSKPD5BWP16P90 BUFFSKPD6BWP16P90 BUFFSKPD8BWP16P90 CKBD10BWP16P90 CKBD12BWP16P90 CKBD14BWP16P90 CKBD18BWP16P90 CKBD2BWP16P90 CKBD3BWP16P90 CKBD4BWP16P90 CKBD5BWP16P90 CKBD6BWP16P90 CKBD8BWP16P90 DCCKBD10BWP16P90 DCCKBD12BWP16P90 DCCKBD14BWP16P90 DCCKBD18BWP16P90 DCCKBD4BWP16P90 DCCKBD5BWP16P90 DCCKBD6BWP16P90 DCCKBD8BWP16P90
+[03/15 10:36:38     53s] Total number of usable buffers: 56
+[03/15 10:36:38     53s] List of unusable buffers: BUFFD16BWP16P90 BUFFD20BWP16P90 BUFFD24BWP16P90 BUFFSKND16BWP16P90 BUFFSKND20BWP16P90 BUFFSKND24BWP16P90 BUFFSKPD16BWP16P90 BUFFSKPD20BWP16P90 BUFFSKPD24BWP16P90 CKBD16BWP16P90 CKBD20BWP16P90 CKBD24BWP16P90 DCCKBD16BWP16P90 DCCKBD20BWP16P90 DCCKBD24BWP16P90 GBUFFMCOD1BWP16P90 GBUFFMCOD3BWP16P90 GBUFFMCOD2BWP16P90 GBUFFMCOD4BWP16P90 GBUFFMCOD8BWP16P90
+[03/15 10:36:38     53s] Total number of unusable buffers: 20
+[03/15 10:36:38     53s] List of usable inverters: CKND1BWP16P90 CKND10BWP16P90 CKND12BWP16P90 CKND14BWP16P90 CKND18BWP16P90 CKND2BWP16P90 CKND3BWP16P90 CKND4BWP16P90 CKND5BWP16P90 CKND6BWP16P90 CKND8BWP16P90 DCCKND10BWP16P90 DCCKND12BWP16P90 DCCKND14BWP16P90 DCCKND18BWP16P90 DCCKND4BWP16P90 DCCKND5BWP16P90 DCCKND6BWP16P90 DCCKND8BWP16P90 INVD0BWP16P90 INVD1BWP16P90 INVD0P75BWP16P90 INVD10BWP16P90 INVD12BWP16P90 INVD14BWP16P90 INVD18BWP16P90 INVD2BWP16P90 INVD3BWP16P90 INVD4BWP16P90 INVD5BWP16P90 INVD6BWP16P90 INVD8BWP16P90 INVSKND1BWP16P90 INVSKND0P75BWP16P90 INVSKND10BWP16P90 INVSKND12BWP16P90 INVSKND14BWP16P90 INVSKND18BWP16P90 INVSKND2BWP16P90 INVSKND3BWP16P90 INVSKND4BWP16P90 INVSKND5BWP16P90 INVSKND6BWP16P90 INVSKND8BWP16P90 INVSKPD1BWP16P90 INVSKPD0P75BWP16P90 INVSKPD10BWP16P90 INVSKPD12BWP16P90 INVSKPD14BWP16P90 INVSKPD18BWP16P90 INVSKPD2BWP16P90 INVSKPD3BWP16P90 INVSKPD4BWP16P90 INVSKPD5BWP16P90 INVSKPD6BWP16P90 INVSKPD8BWP16P90
+[03/15 10:36:38     53s] Total number of usable inverters: 56
+[03/15 10:36:38     53s] List of unusable inverters: CKND16BWP16P90 CKND20BWP16P90 CKND24BWP16P90 DCCKND16BWP16P90 DCCKND20BWP16P90 DCCKND24BWP16P90 GINVMCOD2BWP16P90 GINVMCOD1BWP16P90 GINVMCOD4BWP16P90 GINVMCOD3BWP16P90 GINVMCOD8BWP16P90 INVD16BWP16P90 INVD20BWP16P90 INVD24BWP16P90 INVSKND16BWP16P90 INVSKND20BWP16P90 INVSKND24BWP16P90 INVSKPD16BWP16P90 INVSKPD20BWP16P90 INVSKPD24BWP16P90
+[03/15 10:36:38     53s] Total number of unusable inverters: 20
+[03/15 10:36:38     53s] List of identified usable delay cells: DEL025D1BWP16P90 DEL050D1BWP16P90 DEL075D1BWP16P90 DEL100D1BWP16P90 DEL125D1BWP16P90 DEL150D1BWP16P90 DEL175D1BWP16P90 DEL1D1BWP16P90 DEL200D1BWP16P90 DEL225D1BWP16P90 DEL250D1BWP16P90 DEL500D1BWP16P90
+[03/15 10:36:38     53s] Total number of identified usable delay cells: 12
+[03/15 10:36:38     53s] List of identified unusable delay cells:
+[03/15 10:36:38     53s] Total number of identified unusable delay cells: 0
+[03/15 10:36:38     53s] Creating Cell Server, finished. 
+[03/15 10:36:38     53s] 
+[03/15 10:36:38     53s] Deleting Cell Server ...
+[03/15 10:36:38     53s] #% End load design ... (date=03/15 10:36:38, total cpu=0:00:37.2, real=0:00:38.0, peak res=1573.0M, current mem=1573.0M)
+[03/15 10:36:38     53s] 
+[03/15 10:36:38     53s] *** Summary of all messages that are not suppressed in this session:
+[03/15 10:36:38     53s] Severity  ID               Count  Summary                                  
+[03/15 10:36:38     53s] WARNING   IMPFP-3414           9  Row %s exists, create new row with name ...
+[03/15 10:36:38     53s] WARNING   IMPFP-3961           2  The techSite '%s' has no related standar...
+[03/15 10:36:38     53s] WARNING   IMPEXT-7040         14  A %s wire, passing through or close to l...
+[03/15 10:36:38     53s] WARNING   IMPSYC-6163          2  Command '%s' is obsolete and will be mad...
+[03/15 10:36:38     53s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[03/15 10:36:38     53s] WARNING   GLOBAL-100           2  Global '%s' has become obsolete. It will...
+[03/15 10:36:38     53s] WARNING   TECHLIB-302         20  No function defined for cell '%s'. The c...
+[03/15 10:36:38     53s] WARNING   TECHLIB-436         20  Attribute '%s' on '%s' pin '%s' of cell ...
+[03/15 10:36:38     53s] WARNING   TECHLIB-1277        20  The %s '%s' has been defined for %s %s '...
+[03/15 10:36:38     53s] *** Message Summary: 90 warning(s), 0 error(s)
+[03/15 10:36:38     53s] 
