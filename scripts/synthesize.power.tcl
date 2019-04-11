@@ -23,10 +23,10 @@ read_hdl -sv [glob -directory ../../genesis_verif -type f *.v *.sv]
 elaborate $::env(DESIGN)
 uniquify $::env(DESIGN)
 
-read_power_intent -1801 ../../scripts/upf.tcl -module Tile_PECore
-apply_power_intent -design Tile_PECore -module Tile_PECore
-commit_power_intent -design Tile_PECore
-write_power_intent -1801 -design Tile_PECore
+read_power_intent -1801 ../../scripts/upf.tcl -module $::env(DESIGN) 
+apply_power_intent -design Tile_PECore -module $::env(DESIGN) 
+commit_power_intent -design $::env(DESIGN) 
+write_power_intent -1801 -design $::env(DESIGN) 
 
 set_attribute avoid true [get_lib_cells {*/E* */G* *D16* *D20* *D24* *D28* *D32* SDF* *DFM*}]
 
@@ -38,6 +38,6 @@ syn_gen
 syn_map
 syn_opt 
 
-write_snapshot -directory results_syn2 -tag final
-write_design -innovus -basename results_syn2/syn_out
+write_snapshot -directory results_syn -tag final
+write_design -innovus -basename results_syn/syn_out
 #exit
